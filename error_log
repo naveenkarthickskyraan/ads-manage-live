@@ -1,0 +1,165 @@
+[15-Oct-2023 07:00:22 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl.so' (tried: /opt/cpanel/ea-php81/root/usr/lib64/php/modules/curl.so (libnghttp2.so.14: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php81/root/usr/lib64/php/modules/curl.so.so (/opt/cpanel/ea-php81/root/usr/lib64/php/modules/curl.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[30-Oct-2023 10:13:29 UTC] PHP Fatal error:  Uncaught ErrorException: include(/home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/../symfony/http-foundation/Response.php): Failed to open stream: No such file or directory in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php:571
+Stack trace:
+#0 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/s...', '/home/skyraanap...', 571)
+#1 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php(571): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/s...', '/home/skyraanap...', 571)
+#2 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php(571): include('/home/skyraanap...')
+#3 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/skyraanap...')
+#4 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(566): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')
+#5 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(546): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#6 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#7 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#8 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#9 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#10 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#12 {main}
+  thrown in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php on line 571
+[30-Oct-2023 10:13:29 UTC] PHP Fatal error:  Uncaught ErrorException: include(/home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/../symfony/http-foundation/Response.php): Failed to open stream: No such file or directory in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php:571
+Stack trace:
+#0 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/s...', '/home/skyraanap...', 571)
+#1 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php(571): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/s...', '/home/skyraanap...', 571)
+#2 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php(571): include('/home/skyraanap...')
+#3 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/skyraanap...')
+#4 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(566): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')
+#5 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(546): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#6 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#7 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#8 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#9 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#10 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(246): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#11 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#12 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#13 {main}
+  thrown in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php on line 571
+[30-Oct-2023 10:13:29 UTC] PHP Fatal error:  Uncaught ErrorException: include(/home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/../symfony/http-foundation/Response.php): Failed to open stream: No such file or directory in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php:571
+Stack trace:
+#0 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/s...', '/home/skyraanap...', 571)
+#1 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php(571): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/s...', '/home/skyraanap...', 571)
+#2 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php(571): include('/home/skyraanap...')
+#3 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/skyraanap...')
+#4 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(566): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')
+#5 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(546): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#6 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#7 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#8 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#9 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#10 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#12 {main}
+  thrown in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php on line 571
+[30-Oct-2023 10:13:29 UTC] PHP Fatal error:  Uncaught ErrorException: include(/home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/../symfony/http-foundation/Response.php): Failed to open stream: No such file or directory in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php:571
+Stack trace:
+#0 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/s...', '/home/skyraanap...', 571)
+#1 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php(571): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/s...', '/home/skyraanap...', 571)
+#2 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php(571): include('/home/skyraanap...')
+#3 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/skyraanap...')
+#4 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(566): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')
+#5 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(546): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#6 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#7 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#8 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#9 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#10 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(246): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#11 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#12 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#13 {main}
+  thrown in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php on line 571
+[30-Oct-2023 10:13:29 UTC] PHP Fatal error:  Uncaught ErrorException: include(/home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/../symfony/http-foundation/Response.php): Failed to open stream: No such file or directory in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php:571
+Stack trace:
+#0 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/s...', '/home/skyraanap...', 571)
+#1 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php(571): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/s...', '/home/skyraanap...', 571)
+#2 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php(571): include('/home/skyraanap...')
+#3 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/skyraanap...')
+#4 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(566): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')
+#5 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(546): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#6 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#7 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#8 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#9 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#10 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#12 {main}
+  thrown in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php on line 571
+[30-Oct-2023 10:13:29 UTC] PHP Fatal error:  Uncaught ErrorException: include(/home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/../symfony/http-foundation/Response.php): Failed to open stream: No such file or directory in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php:571
+Stack trace:
+#0 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/s...', '/home/skyraanap...', 571)
+#1 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php(571): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/s...', '/home/skyraanap...', 571)
+#2 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php(571): include('/home/skyraanap...')
+#3 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/skyraanap...')
+#4 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(566): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')
+#5 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(546): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#6 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#7 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#8 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#9 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#10 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(246): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#11 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#12 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#13 {main}
+  thrown in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/ClassLoader.php on line 571
+[30-Oct-2023 10:13:29 UTC] PHP Warning:  require(/home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/autoload_real.php on line 55
+[30-Oct-2023 10:13:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/autoload_real.php(38): composerRequire0485e5695ecd7cacbbefd6fa0a16ac6d('667aeda72477189...', '/home/skyraanap...')
+#1 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/autoload.php(25): ComposerAutoloaderInit0485e5695ecd7cacbbefd6fa0a16ac6d::getLoader()
+#2 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/public/index.php(34): require('/home/skyraanap...')
+#3 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/index.php(27): require_once('/home/skyraanap...')
+#4 {main}
+  thrown in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/autoload_real.php on line 55
+[30-Oct-2023 10:13:29 UTC] PHP Warning:  require(/home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/../psy/psysh/src/functions.php): Failed to open stream: No such file or directory in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/autoload_real.php on line 55
+[30-Oct-2023 10:13:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/../psy/psysh/src/functions.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/autoload_real.php(38): composerRequire0485e5695ecd7cacbbefd6fa0a16ac6d('801c31d8ed748cf...', '/home/skyraanap...')
+#1 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/autoload.php(25): ComposerAutoloaderInit0485e5695ecd7cacbbefd6fa0a16ac6d::getLoader()
+#2 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/public/index.php(34): require('/home/skyraanap...')
+#3 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/index.php(27): require_once('/home/skyraanap...')
+#4 {main}
+  thrown in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/autoload_real.php on line 55
+[04-Apr-2024 11:46:14 UTC] PHP Deprecated:  urldecode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/index.php on line 15
+[30-Apr-2024 10:24:16 UTC] PHP Warning:  require(/home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/../symfony/polyfill-intl-normalizer/bootstrap.php): Failed to open stream: No such file or directory in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/autoload_real.php on line 55
+[30-Apr-2024 10:24:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/../symfony/polyfill-intl-normalizer/bootstrap.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/autoload_real.php(38): composerRequire0485e5695ecd7cacbbefd6fa0a16ac6d('e69f7f6ee287b96...', '/home/skyraanap...')
+#1 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/autoload.php(25): ComposerAutoloaderInit0485e5695ecd7cacbbefd6fa0a16ac6d::getLoader()
+#2 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/public/index.php(34): require('/home/skyraanap...')
+#3 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/index.php(27): require_once('/home/skyraanap...')
+#4 {main}
+  thrown in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/autoload_real.php on line 55
+[30-Apr-2024 10:24:17 UTC] PHP Warning:  require(/home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/../ramsey/uuid/src/functions.php): Failed to open stream: No such file or directory in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/autoload_real.php on line 55
+[30-Apr-2024 10:24:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/../ramsey/uuid/src/functions.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/autoload_real.php(38): composerRequire0485e5695ecd7cacbbefd6fa0a16ac6d('e39a8b23c42d4e1...', '/home/skyraanap...')
+#1 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/autoload.php(25): ComposerAutoloaderInit0485e5695ecd7cacbbefd6fa0a16ac6d::getLoader()
+#2 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/public/index.php(34): require('/home/skyraanap...')
+#3 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/index.php(27): require_once('/home/skyraanap...')
+#4 {main}
+  thrown in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/autoload_real.php on line 55
+[12-May-2024 22:38:13 UTC] PHP Deprecated:  urldecode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/index.php on line 15
+[12-May-2024 22:38:31 UTC] PHP Deprecated:  urldecode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/index.php on line 15
+[12-Jun-2024 01:02:29 UTC] PHP Deprecated:  urldecode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/index.php on line 15
+[01-Jul-2024 10:22:12 UTC] PHP Deprecated:  urldecode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/index.php on line 15
+[02-Jul-2024 07:16:08 UTC] PHP Deprecated:  urldecode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/index.php on line 15
+[06-Jul-2024 03:21:12 UTC] PHP Deprecated:  urldecode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/index.php on line 15
+[07-Jul-2024 18:04:27 UTC] PHP Deprecated:  urldecode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/index.php on line 15
+[08-Jul-2024 15:25:02 UTC] PHP Deprecated:  urldecode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/index.php on line 15
+[22-Jul-2024 06:55:02 UTC] PHP Deprecated:  urldecode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/index.php on line 15
+[24-Jul-2024 11:56:46 UTC] PHP Warning:  require(/home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/autoload_real.php on line 41
+[24-Jul-2024 11:56:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/autoload_real.php(45): {closure}('0e6d7bf4a5811bf...', '/home/skyraanap...')
+#1 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/autoload.php(25): ComposerAutoloaderInit0485e5695ecd7cacbbefd6fa0a16ac6d::getLoader()
+#2 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/public/index.php(34): require('/home/skyraanap...')
+#3 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/index.php(27): require_once('/home/skyraanap...')
+#4 {main}
+  thrown in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/autoload_real.php on line 41
+[24-Jul-2024 11:56:46 UTC] PHP Warning:  require(/home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/../symfony/polyfill-intl-normalizer/bootstrap.php): Failed to open stream: No such file or directory in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/autoload_real.php on line 41
+[24-Jul-2024 11:56:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/../symfony/polyfill-intl-normalizer/bootstrap.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/autoload_real.php(45): {closure}('e69f7f6ee287b96...', '/home/skyraanap...')
+#1 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/autoload.php(25): ComposerAutoloaderInit0485e5695ecd7cacbbefd6fa0a16ac6d::getLoader()
+#2 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/public/index.php(34): require('/home/skyraanap...')
+#3 /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/index.php(27): require_once('/home/skyraanap...')
+#4 {main}
+  thrown in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/vendor/composer/autoload_real.php on line 41
+[02-Aug-2024 13:44:11 UTC] PHP Deprecated:  urldecode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/skyraanapps/public_html/adsmanager1.skyraanapps.com/index.php on line 15
